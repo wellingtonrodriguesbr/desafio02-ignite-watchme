@@ -1,7 +1,6 @@
 nav.sidebar {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 
   max-width: 24rem;
@@ -27,6 +26,12 @@ nav.sidebar {
     display: flex;
     flex-direction: column;
 
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  nav.sidebar {
+    max-width: 100%;
     width: 100%;
   }
 }

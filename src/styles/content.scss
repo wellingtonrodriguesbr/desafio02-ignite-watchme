@@ -31,3 +31,19 @@ main {
     list-style: none;
   }
 }
+
+@media (max-width: 768px) {
+  main {
+    .movies-list {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+
+  header {
+    span.category {
+      display: block;
+      padding-left: 2rem;
+    }
+  }
+}
