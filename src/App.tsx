@@ -5,7 +5,7 @@ import { api } from "./services/api";
 
 import "./styles/global.scss";
 
-interface GenreResponseProps {
+export interface GenreResponseProps {
   id: number;
   name: "action" | "comedy" | "documentary" | "drama" | "horror" | "family";
   title: string;
